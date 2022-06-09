@@ -1,0 +1,61 @@
+:root {
+  box-sizing: border-box;
+}
+
+html,
+body,
+* {
+  font-family: 'Ubuntu', sans-serif !important;
+	font-weight: 300 !important;
+	background-color: rgb(255, 255, 255);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#app {
+  height: 100vh;
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 6px solid rgb(0, 0, 0);
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  width: 30%;
+  margin: 30px 15px;
+  padding: 25px;
+  text-align: center;
+  font-size: 40px;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: rgb(46, 21, 185);
+}
+
+.option:hover {
+  cursor: pointer;
+  background-color: rgb(35, 22, 228);
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  transform: scale(105%);
+  -webkit-transform: scale(105%);
+  -moz-transform: scale(105%);
+  -ms-transform: scale(105%);
+  -o-transform: scale(105%);
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  -moz-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  -ms-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  -o-transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+}
